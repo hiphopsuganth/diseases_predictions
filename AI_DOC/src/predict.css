@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.cc {
+    background-image: url(/home/zorox/Documents/diseases_prediction/AI_DOC/public/aiherbal.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    /* Space below the heading */
+}
+select{
+    margin-bottom: 15px;
+    max-width: 490px;
+    width: 90px;
+}
+p{
+    color: gray;
+    font-size: 1.05em;
+}
+.prediction-results{
+    background-color: aliceblue;
+
+}
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    /* Space between tags */
+}
+.tag {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 15px;
+}
+.selected-symptoms {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } 
+  .tag {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #a99292;
+    border-radius: 5px;
+  }
+ 
+  button {
+    padding: 6px 12px;
+    margin: 4px 5px;
+    font-size: 1.05em;
+    font: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 280px;
+    height: 60px;
+    background-color:lightgreen;
+  }
+
+.prediction-results { 
+    text-align: left; 
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 900px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+ } 
+ .prediction-results h4 { 
+    text-align: center; /* Centers the header text */
+     margin-bottom: 10px; /* Adds some space below the header */
+     } 
+     .prediction-results p { 
+        margin: 10px 0; /* Adds vertical margin to paragraphs */ 
+        line-height: 1.5; /* Sets line height for better readability */
+     }
